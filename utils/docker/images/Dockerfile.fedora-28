@@ -32,6 +32,7 @@ RUN dnf update -y \
 	tar \
 	wget \
 	which \
+	ndctl \
  && dnf clean all
 
 # Install pmdk
