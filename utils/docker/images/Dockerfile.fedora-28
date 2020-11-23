@@ -33,6 +33,7 @@ RUN dnf update -y \
 	wget \
 	which \
 	ndctl \
+	ndctl-devel \
  && dnf clean all
 
 # Install pmdk
