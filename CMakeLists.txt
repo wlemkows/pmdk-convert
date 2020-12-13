@@ -392,6 +392,7 @@ if(BUILD_CONVERT_V6)
 			message(FATAL_ERROR "Unknown architecture ${CMAKE_SYSTEM_PROCESSOR}")
 		endif()
 
+
 		if(WIN32)
 			set(LIBPMEM_SOURCES ${LIBPMEM_SOURCES}
 				${MAX_STABLE}/src/libpmem/libpmem_main.c
